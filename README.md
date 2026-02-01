@@ -1,16 +1,27 @@
-# React + Vite
+# 🚀 NovaFlow - Akıllı İş Yönetim Sistemi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NovaFlow, modern işletmeler için geliştirilmiş, hız ve estetiği bir araya getiren kapsamlı bir **Müşteri ve Finans Yönetim (CRM)** panelidir.
 
-Currently, two official plugins are available:
+## ✨ Öne Çıkan Özellikler
+- **📈 Dinamik Analiz:** Recharts ile gelir/gider dengesini anlık takip edin.
+- **📄 PDF Raporlama:** Satış verilerini tek tıkla profesyonel PDF raporuna dönüştürün.
+- **👥 Müşteri Yönetimi:** Detaylı bakiye takibi ve özel görüşme notları.
+- **💳 Harcamalar Modülü:** Şirket giderlerini kaydederek "Net Kar" oranını otomatik hesaplayın.
+- **🌑 Modern UI:** Tailwind CSS ile güçlendirilmiş, Indigo temalı Dark Mode arayüzü.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Teknik Altyapı
+- **Frontend:** React + Vite
+- **Veritabanı & Kimlik Doğrulama:** Firebase (Firestore & Auth)
+- **Grafikler:** Recharts
+- **İkonlar:** Lucide React
+- **PDF Motoru:** jsPDF + autoTable
 
-## React Compiler
+## 🚀 Hızlı Başlangıç
+1. Projeyi klonlayın: `git clone https://github.com/KULLANICI_ADIN/novaflow.git`
+2. Bağımlılıkları yükleyin: `pnpm install`
+3. Firebase yapılandırmanızı ekleyin.
+4. Geliştirici modunu başlatın: `pnpm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın! 
+👨‍💻 Geliştiren: **Rubina Erin**
