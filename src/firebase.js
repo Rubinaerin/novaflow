@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDrg4mp29kEgESy4sWEQ00mGkA4VqAc6LY",
-  authDomain: "novaflow-3a9e7.firebaseapp.com",
-  projectId: "novaflow-3a9e7",
-  storageBucket: "novaflow-3a9e7.firebasestorage.app",
-  messagingSenderId: "811619047379",
-  appId: "1:811619047379:web:8908287431c7363f69c126",
-  measurementId: "G-8R4W055C4S"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
